@@ -1,0 +1,63 @@
+* { box-sizing: border-box;}
+
+table{
+  font-family: 'Roboto', sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+caption{
+  font-family: 'Calistoga', cursive;
+  font-size: 33px;
+  margin: 23px auto;
+  color: crimson;
+}
+
+tr, td, th{
+  border: 1px black solid;
+  padding: 1%;
+}
+
+thead{
+  color: white;
+  background: teal;
+}
+
+tbody tr:nth-child(even) {
+  background: #eee;
+}
+
+tbody tr>:nth-child(3), 
+tbody tr>:nth-child(4),
+tbody tr>:nth-child(5),
+tbody tr>:nth-child(6),
+tbody tr>:nth-child(7),
+tbody tr>:nth-child(8),
+tbody tr>:nth-child(9),
+tbody tr>:nth-child(10),
+tbody tr>:nth-child(11){
+  text-align: right;
+}
+
+tbody tr>:nth-child(11),
+tfoot tr>:nth-child(10){
+  color: crimson;
+}
+
+tfoot tr>:nth-child(3), 
+tfoot tr>:nth-child(4),
+tfoot tr>:nth-child(5),
+tfoot tr>:nth-child(6),
+tfoot tr>:nth-child(7),
+tfoot tr>:nth-child(8),
+tfoot tr>:nth-child(9),
+tfoot tr>:nth-child(10){
+  text-align: right;
+}
+
+tfoot{
+  color: black;
+  font-weight: bold;
+  background: gold;
+}
